@@ -1,0 +1,10 @@
+{
+    "presets": ["es2015", "latest"],
+    "plugins": [
+      ["import", {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }]
+    ]
+  }
