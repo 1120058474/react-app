@@ -1,7 +1,7 @@
 import React,{ Component } from 'react'
 import { Flex, WhiteSpace, Toast} from 'antd-mobile'
 /**
- * 框架组件 lianpen
+ * 框架组件 
  */
 import Rc_Header from "./header/Header"
 import Rc_Footer from "./footer/Footer"

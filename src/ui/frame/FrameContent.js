@@ -58,20 +58,6 @@ class FrameContent extends React.Component {
         )
     }
 
-    /**
-     * 检查地址
-     * 1. 如果没有权限返回false
-     */
-    checkHash() {
-        // if (gStore.env == 'development') return true
-        const hash = urlUtil.getHash()
-        const router = routerUtil.getObjByHash(hash)
-        if (router && router.authority) {
-            return gStore.authorityTree.hasAuthority(router.authority)
-        }
-        return true
-    }
-
 }
 
 export default FrameContent
